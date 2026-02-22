@@ -87,7 +87,7 @@ or
 		- disable camera rotation control when on track
 
 - [Project2.hpp](./Project_2/Headers/Project2.hpp)
-	- line 71(./Project_2/Headers/Project2.hpp#L71):
+	- [line 71](./Project_2/Headers/Project2.hpp#L71):
 		- drawTrack bool added
 
 - Extra Credit:
