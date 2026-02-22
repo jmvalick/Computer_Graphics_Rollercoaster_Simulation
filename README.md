@@ -36,58 +36,58 @@ or
 - Since this was a class project. Most of this project is starter code. Below are all of the change and implementation made by me.
 
 ### Implementations made:
-- track.hpp
-	- lines 40-42:
+- [track.hpp](./Project_2/Headers/track.hpp)
+	- [lines 40-42](./Project_2/Headers/track.hpp#L40-L42):
 		- Vertex arrays for the right rail, left rail, and ties
-	- lines 65-98:
+	- [lines 65-98](./Project_2/Headers/track.hpp#L65-L98):
 		- draw function is implemented
 		- right rail, left rail, and ties are drawn
-	- lines 108-132:
+	- [lines 108-132](./Project_2/Headers/track.hpp#L108-L132):
 		- Get_point function implemented
-	- lines 136-141:
+	- [lines 136-141](./Project_2/Headers/track.hpp#L136-L141):
 		- Free data from vertex arrays
-	- line 148:
+	- [line 148](./Project_2/Headers/track.hpp#L148):
 		- VAOs and VBOs for the right rail, left rail, and ties
-	- lines 166-182:
+	- [lines 166-182](./Project_2/Headers/track.hpp#L166-L182):
 		- interpolate function implemented
 		- Catmull-Tom Spline interpolation
-	- lines 193-237:
+	- [lines 193-237](./Project_2/Headers/track.hpp#L193-L237):
 		- create_track function implemented###
-	- lines 249-276:
+	- [lines 249-276](./Project_2/Headers/track.hpp#L249-L276):
 		- make_triangle function implemented
-	- lines 283-489:
+	- [lines 283-489](./Project_2/Headers/track.hpp#L283-L489):
 		- makeRailPart function implemented
-	- lines 509-571:
+	- [lines 509-571](./Project_2/Headers/track.hpp#L509-L571):
 		- setup_track function implemented
 
-- camera.hpp
-	- lines 40-41:
+- [camera.hpp](./Project_2/Headers/camera.hpp)
+	- [lines 40-41](./Project_2/Headers/camera.hpp#L40-L41):
 		- car variables
-	lines 52-54:
+	- [lines 52-54](./Project_2/Headers/camera.hpp#L52-L54):
 		- T button toggle variables
-	lines 102-165:
+	- [lines 102-165](./Project_2/Headers/camera.hpp#L102-L165):
 		- ProcessTrackMovement function implemented
 
-- Project2.cpp
-	- line 177:
+- [Project2.cpp](./Project_2/Sources/Project2.cpp)
+	- [line 177](./Project_2/Sources/Project2.cpp#L177):
 		- rail texture loaded
-	- lines 194-196:
+	- [lines 194-196](./Project_2/Sources/Project2.cpp#L194-L196):
 		- car model loaded
-	- lines 235-238:
+	- [lines 235-238](./Project_2/Sources/Project2.cpp#L235-L238):
 		- ProcessTrackMovement called
-	- lines 284-287:
+	- [lines 284-287](./Project_2/Sources/Project2.cpp#L284-L287):
 		- call to draw track
-	- lines 382-392:
+	- [lines 382-392](./Project_2/Sources/Project2.cpp#L382-L392):
 		- draw car model
-	- lines 449-458:
+	- [lines 449-458](./Project_2/Sources/Project2.cpp#L449-L458):
 		- free look toggle
-	lines 461:
+	- [lines 461](./Project_2/Sources/Project2.cpp#L461):
 		disable movement controls when on track
-	- line 632:
+	- [line 632](./Project_2/Sources/Project2.cpp#L632):
 		- disable camera rotation control when on track
 
-- Project2.hpp
-	- line 71:
+- [Project2.hpp](./Project_2/Headers/Project2.hpp)
+	- line 71(./Project_2/Headers/Project2.hpp#L71):
 		- drawTrack bool added
 
 - Extra Credit:
